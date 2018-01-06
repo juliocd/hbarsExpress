@@ -1,0 +1,32 @@
+{
+  "name": "habdlexpress",
+  "version": "1.0.0",
+  "description": "Project to implement Handlebars into Express Framework (NodeJS) ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliocd/hbarsExpress.git"
+  },
+  "keywords": [
+    "node",
+    "handlebars",
+    "express",
+    "requirejs"
+  ],
+  "author": "Julio C Diaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliocd/hbarsExpress/issues"
+  },
+  "homepage": "https://github.com/juliocd/hbarsExpress#readme",
+  "dependencies": {
+    "datatables": "^1.10.13",
+    "express": "^4.16.2",
+    "express-hbs": "^1.0.4",
+    "jquery": "^3.2.1",
+    "nodemon": "^1.14.8"
+  }
+}
