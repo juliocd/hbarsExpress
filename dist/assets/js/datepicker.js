@@ -1,0 +1,3 @@
+/*! habdlexpress 2018-01-08 */
+
+var CustomDatePicker={simpleDate(e,t,a){var n=$("#"+e).datepicker(t).on("change",function(){a(this)});return miui,n},rangueDate(e,t,a=null,n=null,r=null){var i=this.simpleDate("dateStart",a,o),l=this.simpleDate("dateEnd",a,u);function o(e){l.datepicker("option","minDate",c(e))}function u(e){i.datepicker("option","maxDate",c(e))}function c(e){var t,n=null==a?"yy-mm-dd":null==a.dateFormat?"yy-mm-dd":a.dateFormat;try{t=$.datepicker.parseDate(n,e.value)}catch(e){console.log("error",e),t=null}return t}i.trigger("change"),l.trigger("change")}};
